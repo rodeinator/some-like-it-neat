@@ -15,29 +15,55 @@ $base-border-radius: em(3);
 // Colors
 ///////////////////////////////////////////////////////////////////////////////
 
-$blue: #477DCA;
 $dark-gray: #333;
+$gray-transparent: rgba(133, 147, 150, .8);
 $medium-gray: #999;
 $light-gray: #DDD;
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
-$light-green: #E6EFC2;
+
+$orange: #ff6633;
+$orange-transparent: rgba(242, 103, 58, .95);
+
+$green: #859a84;
+$green: #72ad67;
+$light-green: lighten($green, 30);
+$dark-green: darken($green, 10);
+
+
+$blue: rgba(133, 147, 150, 1);
+$blue-transparent: rgba(94, 152, 163, .9);
+$light-blue: lighten($blue, 30);
+$dark-blue: darken($blue, 20);
 
 // Body Color
 $base-body-color: white;
 
 //  Font Colors
-$base-font-color: $dark-gray;
-$base-accent-color: $blue;
+$base-font-color: $dark-blue;
+$base-font-color-light: $light-gray;
+$base-accent-color: $orange;
 
 //  Text Link Colors
-$base-link-color: $base-accent-color;
-$hover-link-color: darken($base-accent-color, 15);
+$base-link-color: $dark-blue;
+$hover-link-color: lighten($base-accent-color, 15);
+
 
 // Border color
-$base-border-color: $light-gray;
+$base-border-color: $light-blue;
 
 // Flash Colors
 $error-color: $light-red;
 $notice-color: $light-yellow;
 $success-color: $light-green;
+
+$orange-middle: #997d5c;
+// Backgrounds
+$light-background: $light-green;
+$dark-background: $dark-green;
+
+$light-background: $light-blue;
+$light-background: $light-blue;
+$light-background: rgba(133, 147, 150, .8);
+$dark-background: $dark-blue;
+$transparent-background: rgba(133, 147, 150, .8);

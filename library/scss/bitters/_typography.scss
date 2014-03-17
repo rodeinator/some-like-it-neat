@@ -1,13 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,600);
+@import url( http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 body {
   color: $base-font-color;
-  font-family: $base-font-family;
+  // font-family: $base-font-family;
+  font-family: 'Lato', sans-serif;
+  // font-family: 'Bitter', Helvetica, serif;
   font-size: $base-font-size;
   -webkit-font-smoothing: antialiased;
   line-height: $base-line-height;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $header-font-family;
+  // font-family: $header-font-family;
+  // font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   line-height: 1.25em;
   margin: 0;
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
